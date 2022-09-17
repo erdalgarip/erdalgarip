@@ -1,0 +1,14 @@
+//Java Eğitimleri Hello 
+public class Main {
+
+	public static void main(String[] args) {
+		// Java Script Hoş Geldin Yazdırmak
+		
+		System.out.println("Erdal Garip");
+
+		
+		
+		
+	}
+
+}
