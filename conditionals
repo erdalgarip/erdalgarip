@@ -1,0 +1,39 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// İf Else Döngüler 
+		
+		int kontrolSayim = 40;
+		String text1 = "Büyük";
+		String text2 = "Küçük";
+		String text3 = "Eşit";
+		
+	if(kontrolSayim<30) { 
+		
+	System.out.println(text2);
+	
+	}
+	
+	if(kontrolSayim>30) { 
+		
+		System.out.println(text1);
+		
+		}
+	
+	
+	if(kontrolSayim==30) { 
+		
+		System.out.println(text3);
+		
+		}
+
+
+	
+	
+	
+	}
+		
+		
+	
+
+}
