@@ -1,0 +1,16 @@
+public class Main {
+
+	public static void main(String[] args) {
+	
+	byte  sayiByte = 112;
+	int  sayiInt = 111111111;
+  double SayiDouble = 10.25;
+  char basHarfim = 'E';
+    
+  Boolean Degerim = true;
+    
+    
+
+	}
+
+}
