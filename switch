@@ -1,0 +1,40 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// switch 
+		
+		char notPuani = 'D';
+		
+		switch (notPuani) {
+		case 'A': {
+			
+		System.out.println("Mükemmel");
+		}
+		break;
+		
+		case 'B': {
+			
+		System.out.println("İyi");
+		}
+		break;
+		
+		case 'C': {
+			
+		System.out.println("Orta");
+		}
+		break;
+		
+		case 'D': {
+			
+		System.out.println("Kötü");
+		}
+		break;
+		
+	
+		}
+		
+		
+
+	}
+
+}
