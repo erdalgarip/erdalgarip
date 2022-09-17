@@ -1,10 +1,10 @@
+
 public class Main {
 
 	public static void main(String[] args) {
 		// Mükemmel Sayiyi Bulma 
-	int sayiSec = 28;
+	int sayiSec = 6;
 	int toplam = 0;
-	int sayiIkiKati = sayiSec * 2;
 	for (int i = 1; i < sayiSec; i++) {
 		
 		if(sayiSec % i ==0) { 	
@@ -13,7 +13,7 @@ public class Main {
 	}
 }
 
-	if(sayiIkiKati==toplam+sayiSec) {
+	if(sayiSec==toplam) {
 		
 		System.out.println(sayiSec+" bir mükemmel sayıdır.");	
 	} else {
@@ -23,6 +23,9 @@ public class Main {
 	
 	
 
+		
+		
+		
 	}
 
 }
