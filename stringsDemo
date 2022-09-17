@@ -1,0 +1,54 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// String İşlemleri
+		
+  String metinYazim = "Seninle Birgün Elbet Buluşacağız.";
+  
+  
+  System.out.println("Metin Karakter Uzunluğu : "+metinYazim.length());
+  System.out.println("Metin Karakter 1. Karakteri : "+metinYazim.charAt(0));
+  System.out.println("Metin Karakter 1. Karakteri : "+metinYazim.charAt(12));
+  System.out.println(metinYazim.concat(" Hey Gidi günler hey....")); 
+  System.out.println(metinYazim.startsWith("S"));   
+  System.out.println(metinYazim.startsWith("ca")); 
+  System.out.println(metinYazim.endsWith("S"));   
+  System.out.println(metinYazim.endsWith(".")); 
+  
+  char[] metindenCal = new char[8];
+  metinYazim.getChars(2, 7, metindenCal, 0);
+  System.out.println(metindenCal); 
+  
+  
+  System.out.println(metinYazim.indexOf("e"));
+  System.out.println(metinYazim.lastIndexOf("e"));  
+
+
+  
+  
+  
+  //String karakter değiştirme 
+  
+  System.out.println(metinYazim.replace("e", "abo"));
+  System.out.println(metinYazim.replace(" ", "-"));
+  
+  String metinKucult = metinYazim.toLowerCase();
+  System.out.println(metinKucult.replace(" ", "-"));
+ 
+  String metinBuyult = metinYazim.toUpperCase();
+  System.out.println(metinBuyult.replace(" ", "-")); 
+  
+  
+   for (String kirpilanYazi : metinYazim.split(" ")) {
+	   System.out.println(kirpilanYazi); 	
+}
+   
+   
+   String boslukluMetinYazim = "     Seninle Birgün Elbet Buluşacağız.    ";
+
+   System.out.println(boslukluMetinYazim.trim()); 
+		
+
+	}
+
+}
