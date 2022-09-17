@@ -1,0 +1,54 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//KALIN VE İNCE SESLİ HARF SORGULA 
+		
+	
+		
+		char yeniHarfSorgula = 'a';
+		
+		switch (yeniHarfSorgula) {
+		case 'A':
+		case 'I':
+		case 'O':
+		case 'U':
+		case 'a':
+		case 'ı':
+		case 'o':
+		case 'u':			
+        {
+			
+			System.out.println("Kalın Sesli Harftir");
+		}
+		break; 
+		
+		case 'E':
+		case 'İ':
+		case 'Ö':
+		case 'Ü':	
+		case 'e':
+		case 'i':
+		case 'ö':
+		case 'ü':				
+        {
+			
+			System.out.println("İnce Sesli Harftir");
+		}
+		break; 		
+		
+		default : 
+			
+			System.out.println("Girdiğiniz Değer Sesli Harf Değildir !");
+		
+		
+		
+		
+		}
+		
+		
+
+	}
+
+}
