@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// do while Döngüsü
+		
+		int number = 20;
+		
+		do { 
+		number +=2;
+		System.out.println(number);
+		} 
+		while (number<24);
+		
+			
+			System.out.println("Küçüktür");
+			
+
+ 		
+
+	}
+
+}
