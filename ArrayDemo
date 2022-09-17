@@ -1,0 +1,19 @@
+public class Main {
+
+	public static void main(String[] args) {
+		String[] siniftakiOgrenciler = {"Ahmet Efe","Yunus Tayyar","Ayşe Şener","Erdal Garip"};
+		
+		for (int i = 0; i < siniftakiOgrenciler.length; i++) {
+			System.out.println(siniftakiOgrenciler[i]);
+		}
+		
+		for (String ogrencibilgisi : siniftakiOgrenciler) {
+			
+			
+			System.out.println(ogrencibilgisi);
+		}
+		
+
+	}
+
+}
