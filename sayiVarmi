@@ -1,0 +1,29 @@
+public class Main {
+
+	public static void main(String[] args) {
+ 
+		int[] sayiDizisi = new int[] { 1,4,5,88,102,58,78,96};
+		int bulunacakSayi = 24;
+		Boolean sayiVarmi = false;
+		
+		for (int sayilar : sayiDizisi) {
+			
+		if(bulunacakSayi==sayilar)	{ 
+			
+			sayiVarmi=true;
+		
+		
+		} 
+		}
+		
+		if(sayiVarmi==true) {
+		System.out.println(bulunacakSayi+" Sayi Dizisinde Vardır !");
+			
+		} else {
+	    System.out.println(bulunacakSayi+" Sayi Dizisinde Yoktur !");
+		}
+		
+
+	}
+
+}
