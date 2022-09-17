@@ -1,0 +1,34 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// İçe İçe Geçmiş Döngüler
+		
+	String[][] sehirIlceler = new String[3][3];
+	
+	sehirIlceler[0][0] = "İstanbul";
+	sehirIlceler[0][1] = "Bursa";
+	sehirIlceler[0][2] = "Kocaeli";
+	sehirIlceler[1][0] = "Kartal";	 
+	sehirIlceler[1][1] = "Yenişehir";		 
+	sehirIlceler[1][2] = "Gebze";
+	sehirIlceler[2][0] = "Kartal";	 
+	sehirIlceler[2][1] = "Yenişehir";		 
+	sehirIlceler[2][2] = "Gebze";
+	
+	
+	
+	
+for (int i = 0; i < 3; i++) {
+	System.out.println("-----");
+	for (int d = 0; d < 3; d++) {
+		System.out.println(sehirIlceler[i][d]);
+		
+	}
+	
+}
+	
+	
+	}
+
+}
