@@ -1,0 +1,101 @@
+public class Main {
+
+	public static void main(String[] args) {
+	//Sayı Asal Mı?	
+	
+	int orneksayi = 2;
+	int kalan = orneksayi % 2;
+	//System.out.println(kalan);
+	
+	Boolean asalDurumu = true;
+	
+	if(orneksayi==1 || orneksayi<1) {
+		System.out.println("Asal Sayı Değildir ");	
+		return;
+		
+	}
+	
+	
+	
+	
+	for (int i = 2; i < orneksayi; i++) {
+		
+		if(orneksayi % i ==0) { 
+			asalDurumu=false;  
+		}
+		
+			
+	}
+	
+	
+	
+		
+	if(asalDurumu)	{
+		
+		System.out.println("Asal Sayıdır");	
+	} else {
+		
+		System.out.println("Asal Sayı Değildir ");		
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+
+	// Kendi Örneklerim Saya Asal Mı?
+		
+	int birinciSayi = 12;
+	int ikinciSayi  =  7;	
+	int birinciSayiKalanKontrol = birinciSayi % 2;
+	int ikinciSayiKalanKontrol = ikinciSayi % 2;
+
+	
+	System.out.println(birinciSayiKalanKontrol);
+	System.out.println(ikinciSayiKalanKontrol);	
+	
+	int[] ornekSayilar = {-2,2,5,7,9,11,12,13,14,15,23,27};
+	
+	for (int sayi : ornekSayilar) {
+		
+	if(sayi>2)	 {
+		
+      int sonucBirBolum = sayi % 1; 	
+      int sonucKendiBolum = sayi % sayi; 
+      int sonucCifBolum = sayi % 2; 
+      int sonucTekBolum = sayi % 3; 
+      
+      
+      if(sonucBirBolum==0  && sonucKendiBolum==0 && sonucCifBolum>0 && sonucTekBolum>0) {
+    	  
+    	  System.out.println(sayi+" Asal Sayıdır");		  
+      }
+      
+      
+      
+                
+	}
+	
+	
+	if(sayi==2)	 {
+		  System.out.println(sayi+" Asal Sayıdır");		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+		
+	}
+	
+	
+		
+	}
+
+}
