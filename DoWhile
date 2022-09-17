@@ -1,0 +1,23 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// Do While döngüsü
+		
+		int sayim = 1;
+		int sayim2 = 1;
+		while (sayim<26) {
+	System.out.println(sayim);
+			sayim++;	
+		}
+		
+		
+		while (sayim2<26) {
+			System.out.println(sayim2);
+					sayim2+=5;	
+				}
+		
+		
+
+	}
+
+}
