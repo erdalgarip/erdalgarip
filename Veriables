@@ -1,0 +1,25 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// Değişkenler Değişken Kullanımı
+		
+		int ustSayi = 10;
+		int altSayi = 12;
+		
+		String ikiToplam = "İkisinin Toplam Değeri : ";
+		String ikiCikarma = "İkisinin Çıkarma Değeri : ";		
+		String ikiCarpimi = "İkisinin Çıkarma Değeri : ";	
+		
+		int toplam = ustSayi + altSayi;
+		int cikarma = altSayi - ustSayi;	
+    int carpma = altSayi * ustSayi;		
+		
+		
+		
+		System.out.println(ikiToplam+" "+toplam);
+		System.out.println(ikiCikarma+" "+cikarma);		
+		System.out.println(ikiCarpimi+" "+carpma);			
+
+	}
+
+}
