@@ -1,0 +1,31 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// Dongu ve Kombinasyon
+		
+	double[] ondalikliSayiler = {10.25,24.32,89.45,89.44};
+	
+    double toplagelsin =0;
+    
+    double enBuyuk = ondalikliSayiler[0];
+    double enKucuk = ondalikliSayiler[0];    
+	
+	for (double sayilarimiz : ondalikliSayiler) {
+		
+		if(enBuyuk<sayilarimiz) {  enBuyuk=sayilarimiz;   }
+		if(enKucuk>sayilarimiz) {  enKucuk=sayilarimiz;   }
+		
+		toplagelsin = toplagelsin+sayilarimiz;
+		
+	}
+	
+	System.out.println("Arrayların Toplamı : "+toplagelsin);
+	System.out.println("En Büyüğü  : "+enBuyuk);
+	System.out.println("En Küçüğü  : "+enKucuk);
+	
+	
+	
+
+	}
+
+}
