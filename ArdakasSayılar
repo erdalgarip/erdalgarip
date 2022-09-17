@@ -1,0 +1,45 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+  // Arkadaş Sayılar
+	int birinciSayi=1184;
+	int birinciSayiToplam=0;
+	int ikinciSayi=1210;	
+	int ikinciSayiToplam=0;	
+	
+	
+for (int i = 1; i < birinciSayi; i++) {
+	
+	  if(birinciSayi % i ==0)  {
+		  birinciSayiToplam=birinciSayiToplam+i;  
+
+	  }
+	   
+}		 
+	
+
+
+for (int b = 1; b < ikinciSayi; b++) {
+	
+	  if(ikinciSayi % b ==0)  {
+		  ikinciSayiToplam=ikinciSayiToplam+b;  
+	  }
+	   
+}	
+
+
+if(birinciSayiToplam==ikinciSayi &&  birinciSayi==ikinciSayiToplam) {
+	System.out.println(birinciSayi+" ve "+ikinciSayi+" Arkadaş Sayılardır.");
+} else {
+	System.out.println(birinciSayi+" ve "+ikinciSayi+" Arkadaş Sayı Değildir.");
+}
+	
+
+
+	
+		
+
+	}
+
+}
